@@ -47,7 +47,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">쇼핑몰 데이터</h6>
                         <a class="collapse-item" href="${pageContext.request.contextPath }/olive">올리브영</a>
-                        <a class="collapse-item" href="${pageContext.request.contextPath }/prdSearch">쇼핑몰3사</a>
+                        <button class="collapse-item" onclick="prdSearch()">쇼핑몰3사</button>
                     </div>
                 </div>
             </li>
@@ -123,5 +123,7 @@
             </div>
         </ul>
         <!-- End of Sidebar -->
+        
 </body>
+   
 </html>

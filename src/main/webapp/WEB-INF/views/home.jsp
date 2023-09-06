@@ -258,7 +258,13 @@
         <i class="fas fa-angle-up"></i>
     </a>
 
-    
+    <script>
+    function prdSearch(){
+    	let searchText = prompt("검색어 입력");
+    	location.href="${pageContext.request.contextPath}/prdSearch?searchText="+searchText;
+    		
+    }
+    </script>
 
     <!-- Bootstrap core JavaScript-->
     <script src="${pageContext.request.contextPath }/resources/SBAdmin/vendor/jquery/jquery.min.js"></script>
@@ -269,7 +275,8 @@
 
     <!-- Custom scripts for all pages-->
     <script src="${pageContext.request.contextPath }/resources/SBAdmin/js/sb-admin-2.min.js"></script>
-
+   
+	
 </body>
 
 </html>

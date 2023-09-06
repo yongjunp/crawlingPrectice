@@ -104,7 +104,7 @@ public class CrawService {
         	prdList_11st.add(prdInfo);
         	
         }
-        
+        System.out.println(prdList_11st);
         driver.quit();
 		return prdList_11st;
 	}

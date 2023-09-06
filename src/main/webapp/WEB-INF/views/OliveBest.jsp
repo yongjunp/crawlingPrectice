@@ -307,6 +307,7 @@
 
     <!-- Page level custom scripts -->
     <script src="${pageContext.request.contextPath }/resources/SBAdmin/js/demo/datatables-demo.js"></script>
-</body>
+ 
+    </body>
 
 </html>
